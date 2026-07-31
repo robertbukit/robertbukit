@@ -36,6 +36,9 @@
     <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
   </a>
   <a href="#">
+    <img src="https://img.shields.io/badge/FastAPI-357303?style=for-the-badge&logo=fastapi&logoColor=green" />
+  </a>
+  <a href="#">
     <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
   </a>
 
@@ -49,3 +52,4 @@
 
 ## 🚀 Featured Data Driven & Analytic Projects
 
+### 🔍 [Home Credit Indonesia — Credit Loan Risk Analytics](https://github.com/robertbukit/home_credit_project)
