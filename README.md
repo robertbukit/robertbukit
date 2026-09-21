@@ -142,7 +142,7 @@ IDX_Partners_CreditRisk/
 ---
 
 ### 🤖 Multi-Agent Investment Advisor
-`Python` `Agno` `Gemini 2.0 Flash` `yfinance` `OpenRouter` `Streamlit`
+`Python` `Agno` `NVIDIA Nemotron Super 3` `Yahoo Finance SDK (yfinance)` `OpenRouter` `Streamlit`
 
 Multi-agent orchestration system for investment analysis — three specialized agents coordinated by a synthesizer for data-driven buy/sell/hold decisions.
 
