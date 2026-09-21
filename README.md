@@ -117,26 +117,59 @@ End-to-end credit risk modeling system on the **Home Credit Default Risk** datas
 ---
 
 ### 💳 [Credit Risk Scoring Modeling — MLOps Pipeline & Policy Simulation](https://github.com/robertbukit/id-x-partners_credit-risk-modeling)
-`Python` `XGBoost` `Random Forest` `Expected Loss` `Flask` `Modular Pipeline`
+`Python` `XGBoost` `Random Forest` `Logistic Regressioon` `Basel Principles` `Flask` `Modular Pipeline (MLOps)`
 
 Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
 
 ```
 IDX_Partners_CreditRisk/
-├── src/
-│   ├── wrangling/preprocessing.py     ← Cleaning, encoding, scaling
-│   ├── models/train_models.py         ← Training & hyperparameter tuning
-│   ├── models/evaluate_models.py      ← Evaluation & metrics
-│   ├── models/predict_raw.py          ← Batch inference
-│   └── pipeline.py                   ← Orchestrator
-├── main.py                            ← CLI entry point (train / predict)
-├── app.py                             ← Flask web app (CSV upload → prediction)
-└── config.yaml                        ← Centralized configuration
+├── app.py                          ← Flask web application
+├── main.py                         ← CLI entry point (MLOps orchestrator)
+├── config.yaml                     ← Configuration file
+├── requirements.txt                ← Python dependencies
+│
+── data/
+│   ├── raw/                        ← Raw data
+│   │   └── loan_data_2007_2014.csv
+│   ├── processed/                  ← Data preprocessed
+│   │   ├── data_train_final.csv
+│   │   ├── data_test_final.csv
+│   │   └── predictions_*.csv       ← Prediction result
+│   └── interim/                    ← Data intermediate
+│
+├── notebooks/                      ← R&D, EDA, prototyping
+│   ├── 01_Data_Preprocessing.ipynb
+│   ├── 02_EDA.ipynb
+│   └── 03_Model_Development.ipynb
+│
+├── models/                         ← ARTIFACTS MODEL (result training)
+│   ├── xgboost_tuned.pkl           ← Model ML
+│   ├── scaler.pkl                  ← Scaler for preprocessing
+│   └── expected_columns.pkl        ← Lists column for validation
+│
+├── src/                            ← SOURCE CODE MODULAR
+│   ├── __init__.py
+│   ├── wrangling/
+│   │   ├── __init__.py
+│   │   └── preprocessing.py        ← Function of cleaning, encoding, scaling
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── train_models.py         ← Training & tuning
+│   │   ├── evaluate_models.py      ← Model evaluation
+│   │   ├── predict_clean.py        ← Prediction for clean data
+│   │   └── predict_raw.py          ← Prediction for raw data
+│   └── pipeline.py                 ← Orchestrator training pipeline
+│
+├── templates/                      ← HTML TEMPLATES (Flask)
+│   ── index.html                   ← web page upload CSV
+│
+└── static/                         ← STATIC FILES (CSS, JS, Images)
+    └── style.css                   ← Styling for web app
 ```
 
 - Built and benchmarked **3 classifiers** (XGBoost, Random Forest, Logistic Regression) — LR included for regulatory interpretability
 - Applied **Expected Loss framework** (EL = PD × LGD × EAD) with grade-based empirical LGD for realistic loss estimation
-- Simulated **3 credit approval policy scenarios** (Conservative / Balanced / Growth) — optimal threshold captures 99% of max net portfolio value with **53% Expected Loss reduction**
+- Simulated **3 credit approval policy scenarios** (Conservative / Balanced / Growth) — optimal threshold captures **99% of max net portfolio** value with achievable in the tested range (**$202.7M of $203.9M**) while limiting default-rate growth to **1.19%** at an **88.4%** approval rate.
 - Structured as a **2-phase MLOps workflow**: R&D (notebooks) → Production (modular src/ + CLI + Flask API)
 
 ---
@@ -155,6 +188,10 @@ Multi-agent orchestration system for investment analysis — three specialized a
 - Integrated **yfinance** for real-time market and fundamental data
 - Implemented **API quota management** — consolidated to flat 3 LLM calls regardless of portfolio size, with rate limiting and session-state caching
 - Switched to **OpenRouter (Nvidia Nemotron)** for improved model availability and cost efficiency
+
+---
+## 🚀 Featured Data Science and Analytics Projects
+### 
 
 ---
 
