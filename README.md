@@ -227,6 +227,7 @@ Hybrid RAG system for local document intelligence with web-grounded search fallb
 
 ---
 
+## 📄 Publication Research
 ### ⚛️ Quantum ML — VQC vs QSVM for Jet Classification
 `Python` `Qiskit` `IBM Quantum` `PennyLane` `Scikit-learn`
 
