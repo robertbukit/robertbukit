@@ -175,10 +175,22 @@ IDX_Partners_CreditRisk/
 ---
 
 ## 🚀 Featured Data Science and Analytics Projects
-### 
+### 📈 [Measuring Real-World Campaign Impact in Retail with Quasi - Experimental Analysis (Quantium Virtual Internship)](https://github.com/robertbukit/quantium-internship_forage)
+`Python` `Pearson Correlation` `Scipy` `Numpy` `Pandas` `Matplotlib` `Seaborn`
 
 ---
 
+### 🛒 [Customer Retention Enhancement through Predictive Analytics](https://github.com/robertbukit/lloyds_churn-prediction_project)
+`Python` `Scikit-learn` `Random Forest` `Logistic Regression` `Numpy` `Pandas` `Matplotlib`
+
+---
+
+### 🔍 [Customer segmentation analysis and Fraud detection](https://github.com/robertbukit/frauds-detection)
+`Python` `KMeans` `Random Forest`
+
+---
+
+## Applied Agent AI
 ### 🤖 Multi-Agent Investment Advisor
 `Python` `Agno` `NVIDIA Nemotron Super 3` `Yahoo Finance SDK (yfinance)` `OpenRouter` `Streamlit`
 
