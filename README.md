@@ -116,7 +116,7 @@ End-to-end credit risk modeling system on the **Home Credit Default Risk** datas
 
 ---
 
-### 🏦 [Credit Risk Scoring Modeling — MLOps Pipeline & Policy Simulation](https://github.com/robertbukit/id-x-partners_credit-risk-modeling)
+### 💳 [Credit Risk Scoring Modeling — MLOps Pipeline & Policy Simulation](https://github.com/robertbukit/id-x-partners_credit-risk-modeling)
 `Python` `XGBoost` `Random Forest` `Expected Loss` `Flask` `Modular Pipeline`
 
 Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
