@@ -98,6 +98,91 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 
 ---
 
-## 🚀 Featured Data Driven & Analytic Projects
+## 🏦 Data Scientist Project Based Intern - Home Credit Indonesia & Id/x Partners
 
-### 🔍 [Home Credit Indonesia — Credit Loan Risk Analytics](https://github.com/robertbukit/home_credit_project)
+### 💳 [Credit Risk Scoring Modeling — End-to-End ML Pipeline](https://github.com/robertbukit/home_credit_project)
+`Python` `XGBoost` `LightGBM` `SHAP` `Flask` `WoE/Scorecard`
+
+End-to-end credit risk modeling system on the **Home Credit Default Risk** dataset, covering full ML lifecycle from raw multi-source data consolidation to modular production inference.
+
+| Model | Test AUC | Recall (Bad Client) | Explainability |
+|-------|----------|----------------------|----------------|
+| LightGBM (Tuned) | **0.96** | **0.91** | Feature Importance |
+
+- Consolidated **8 large-scale datasets** (1.43M rows × 112 features) using star schema architecture into a single analytical table
+- Prioritized **Recall over Accuracy** — in credit risk, missing a bad client (FN) is costlier than false rejection (FP)
+- Business impact simulation: default rate **8.62% → 4.62%**, net revenue **+$86.8M (+14.67%)**, bad loan cost savings **-40.4%**
+- Produced **feature importance outputs** and business recommendations aligned with risk policy adjustments
+
+---
+
+### 🏦 [Credit Risk Scoring Modeling — MLOps Pipeline & Policy Simulation](https://github.com/robertbukit/id-x-partners_credit-risk-modeling)
+`Python` `XGBoost` `Random Forest` `Expected Loss` `Flask` `Modular Pipeline`
+
+Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
+
+```
+IDX_Partners_CreditRisk/
+├── src/
+│   ├── wrangling/preprocessing.py     ← Cleaning, encoding, scaling
+│   ├── models/train_models.py         ← Training & hyperparameter tuning
+│   ├── models/evaluate_models.py      ← Evaluation & metrics
+│   ├── models/predict_raw.py          ← Batch inference
+│   └── pipeline.py                   ← Orchestrator
+├── main.py                            ← CLI entry point (train / predict)
+├── app.py                             ← Flask web app (CSV upload → prediction)
+└── config.yaml                        ← Centralized configuration
+```
+
+- Built and benchmarked **3 classifiers** (XGBoost, Random Forest, Logistic Regression) — LR included for regulatory interpretability
+- Applied **Expected Loss framework** (EL = PD × LGD × EAD) with grade-based empirical LGD for realistic loss estimation
+- Simulated **3 credit approval policy scenarios** (Conservative / Balanced / Growth) — optimal threshold captures 99% of max net portfolio value with **53% Expected Loss reduction**
+- Structured as a **2-phase MLOps workflow**: R&D (notebooks) → Production (modular src/ + CLI + Flask API)
+
+---
+
+### 🤖 Multi-Agent Investment Advisor
+`Python` `Agno` `Gemini 2.0 Flash` `yfinance` `OpenRouter` `Streamlit`
+
+Multi-agent orchestration system for investment analysis — three specialized agents coordinated by a synthesizer for data-driven buy/sell/hold decisions.
+
+| Agent | Role |
+|-------|------|
+| Technical Analyst | Price action, moving averages, momentum signals |
+| Fundamental Analyst | Financial ratios, earnings, growth metrics |
+| Team Lead | Cross-agent synthesis → final investment decision |
+
+- Integrated **yfinance** for real-time market and fundamental data
+- Implemented **API quota management** — consolidated to flat 3 LLM calls regardless of portfolio size, with rate limiting and session-state caching
+- Switched to **OpenRouter (Nvidia Nemotron)** for improved model availability and cost efficiency
+
+---
+
+### 🧠 Gemma 3 Local RAG Reasoning Agent
+`Python` `LangChain` `Gemma 3` `Ollama` `ChromaDB` `Gemini API` `Agno` `Streamlit`
+
+Hybrid RAG system for local document intelligence with web-grounded search fallback — designed around a fully modular, decoupled architecture.
+
+```
+├── ingestion/        ← PDF loading, chunking, preprocessing
+├── vectorstore/      ← ChromaDB indexing & retrieval
+├── agents/           ← Gemma 3 (local) + Gemini web search agent
+├── core/             ← Shared config, utilities
+└── ui/               ← Streamlit interface
+```
+
+- **Local-first reasoning**: Gemma 3 via Ollama handles document Q&A entirely on-device
+- **Web search fallback**: Gemini API + DuckDuckGo activated for out-of-scope queries
+- Refactored from monolithic reference code into **industry-standard decoupled architecture**
+
+---
+
+### ⚛️ Quantum ML — VQC vs QSVM for Jet Classification
+`Python` `Qiskit` `IBM Quantum` `PennyLane` `Scikit-learn`
+
+**Undergraduate thesis** — benchmarking Quantum Machine Learning algorithms on real quantum hardware for high-energy physics classification.
+
+- Compared **Variational Quantum Classifier (VQC)** vs **Quantum Support Vector Machine (QSVM)** on jet multiplicity classification using CMS Open Data (CERN)
+- Tested on both **ideal simulation** and **real IBM Quantum hardware** — evaluating NISQ-era noise impact on classification performance
+- Conducted under **Theoretical Physics Laboratory, IPB University**
+- 📄 Published in IPB University Repository
