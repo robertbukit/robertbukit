@@ -191,7 +191,7 @@ IDX_Partners_CreditRisk/
 ---
 
 ## Applied Agent AI
-### 🤖 Multi-Agent Investment Advisor
+### 🤖 [Multi-Agent Investment Advisor](https://github.com/robertbukit/InvestmentAgents)
 `Python` `Agno` `NVIDIA Nemotron Super 3` `Yahoo Finance SDK (yfinance)` `OpenRouter` `Streamlit`
 
 Multi-agent orchestration system for investment analysis — three specialized agents coordinated by a synthesizer for data-driven buy/sell/hold decisions.
@@ -208,7 +208,7 @@ Multi-agent orchestration system for investment analysis — three specialized a
 
 ---
 
-### 🧠 Gemma 3 Local RAG Reasoning Agent
+### 🧠 [Gemma 3 Local RAG Reasoning Agent](https://github.com/robertbukit/RAG_Agent_Gemma3)
 `Python` `LangChain` `Gemma 3` `Ollama` `ChromaDB` `Gemini API` `Agno` `Streamlit`
 
 Hybrid RAG system for local document intelligence with web-grounded search fallback — designed around a fully modular, decoupled architecture.
