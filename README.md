@@ -174,6 +174,11 @@ IDX_Partners_CreditRisk/
 
 ---
 
+## 🚀 Featured Data Science and Analytics Projects
+### 
+
+---
+
 ### 🤖 Multi-Agent Investment Advisor
 `Python` `Agno` `NVIDIA Nemotron Super 3` `Yahoo Finance SDK (yfinance)` `OpenRouter` `Streamlit`
 
@@ -188,10 +193,6 @@ Multi-agent orchestration system for investment analysis — three specialized a
 - Integrated **yfinance** for real-time market and fundamental data
 - Implemented **API quota management** — consolidated to flat 3 LLM calls regardless of portfolio size, with rate limiting and session-state caching
 - Switched to **OpenRouter (Nvidia Nemotron)** for improved model availability and cost efficiency
-
----
-## 🚀 Featured Data Science and Analytics Projects
-### 
 
 ---
 
