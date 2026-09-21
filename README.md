@@ -32,13 +32,11 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 <div align="center">
 
   <!-- Core Icons from SkillIcons -->
-  <img src="https://skillicons.dev/icons?i=python,postgres,sklearn,github&theme=dark" alt="Skill Icons" />
+ <img src="https://skillicons.dev/icons?i=python,sklearn,postgres,github,docker,fabric&theme=dark" alt="Skill Icons" />
   
   <br/><br/>
 
   <!-- Shields Badges for Tools Not Available in SkillIcons -->
-  <a href="#">
-    <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
@@ -47,7 +45,7 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
     <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/FastAPI-357303?style=for-the-badge&logo=fastapi&logoColor=green" />
+    <img src="https://img.shields.io/badge/Agno-000000?style=for-the-badge&logo=ai&logoColor=white" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
