@@ -32,11 +32,31 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 <div align="center">
 
   <!-- Core Icons from SkillIcons -->
- <img src="https://skillicons.dev/icons?i=python,sklearn,pyspark,postgres,github,docker,fabric&theme=dark" alt="Skill Icons" />
+ <img src="https://skillicons.dev/icons?i=python,sklearn,postgres,github,docker&theme=dark" alt="Skill Icons" />
   
   <br/><br/>
 
   <!-- Shields Badges for Tools Not Available in SkillIcons -->
+   <a href="#">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LightGBM-2980B9?style=for-the-badge&logo=lightgbm&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white" />
+  </a>
+   <a href="#">
+    <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/MLFlow-B0E0E60?style=for-the-badge&logo=python&logoColor=white" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
