@@ -16,6 +16,17 @@
 
 ---
 
+## 👋About Me
+I'm a Fresh Graduate from Physics at IPB University, with about 2 years experience in computation field and more than 1 years experience across the data ecosystem. I approach data the way physics trained me to approach the universe: look for the underlying structure, question every assumption, let evidence not only intuition, and drive the conclusion. 
+
+My strong foundation and spesializing in Data Analysis, Data Science (especially thrive in predictive modeling), ETL/ELT pipeline, and Applied AI. Also to solve my domain business expertise across **Banking, FinTech, and Retail.**
+
+- **Credit Risk Analyst Modeling** — I had some experienced in Credit Analyst Modeling through my project based internship or self project. My first project based internship was in **Id/x Partners**, engineered machine learning models for predicting and classification high risk loans that potential to default, then built the end to end solutions through **MLOps architecture** to streamline future process, and also built the local deployment for web based via flask. In this project, i'm architected end to end **credit risk scoring calculation scenario** following Basel IRB principles (EL, PD, LGD, EAD). And then for my second project based internship was in **Home Credit Indonesia**, developed machine learning models for predicting and classification default loan by client, Processed and consolidated **8 large-scale datasets** (main records and millions of related transactional records) into a master table. And i'm also evaluated model with focus on recall for “default” clients and produced model explainability outputs (feature importances) to support business adoption and risk policy adjustments.
+- **Applied AI (Agent AI)** — 1) Developed a high-performance, **local-first Retrieval-Augmented Generation (RAG)** agent that seamlessly integrates local LLM reasoning (Gemma 3 via Ollama) with real-time web grounding (Gemini API). Built using Agno Framework and LangChain, the system delivers accurate document intelligence while solving critical deployment challenges like ID collision, modular dependency management, and low-latency response streaming. 2) Built a professional investment intelligence platform powered by multiple of AI Agents, designed to provide executive-grade merket analysis and stocks recommendation for Worker Class, Youth, and Middle & Lower Middle. This agent uses real-time market data to simplify complex investment decision.
+- **Data Analytics & Visualization** — Providing and designing analytical process data and with reporting-ready using Python, SQL, Power BI, and Microsoft Excel
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
