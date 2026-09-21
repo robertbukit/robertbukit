@@ -50,10 +50,10 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
     <img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white" />
   </a>
    <a href="#">
-    <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/MLFlow-B0E0E60?style=for-the-badge&logo=mlflow&logoColor=grey" />
@@ -69,6 +69,27 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Agno-000000?style=for-the-badge&logo=ai&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logo=databricks&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Microsoft_Fabric-000000?style=for-the-badge&logo=fabric&logoColor=white" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Apache_Spark-000000?style=for-the-badge&logo=spark&logoColor=white" />
   </a>
 
 </div>
