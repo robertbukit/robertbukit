@@ -180,7 +180,7 @@ IDX_Partners_CreditRisk/
 
 ---
 
-### 🛒 [Customer Retention Enhancement through Predictive Analytics](https://github.com/robertbukit/lloyds_churn-prediction_project)
+### 🛒 [Customer Retention Enhancement through Predictive Analytics (Lloyds Banking Group Virtual Internship)](https://github.com/robertbukit/lloyds_churn-prediction_project)
 `Python` `Scikit-learn` `Random Forest` `Logistic Regression` `Numpy` `Pandas` `Matplotlib`
 
 ---
