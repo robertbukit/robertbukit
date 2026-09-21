@@ -96,8 +96,6 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 
 <br/>
 
-> **Also working with:** dbt · Agno · LangChain · Streamlit 
-
 ---
 
 ## 🚀 Featured Data Driven & Analytic Projects
