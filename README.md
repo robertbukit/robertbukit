@@ -56,7 +56,7 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
     <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/MLFlow-B0E0E60?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/MLFlow-B0E0E60?style=for-the-badge&logo=mlflow&logoColor=grey" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
