@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:043AC9,100:7F77DD&height=200&section=header&text=Robert%20Gunanta%20Bukit&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Physics%20Graduate%20%40%20IPB%20%7C%20Aspiring%20Data%20Analyst,%20Data%20Science,%20and%20AI%20Engineer&descAlignY=55&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:043AC9,100:7F77DD&height=200&section=header&text=Robert%20Gunanta%20Bukit&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Physics%20Graduate%20%40%20IPB%20%7C%20Aspiring%20Data%20Analyst,%20Data%20Science,%20AI%20Engineer,%20and%20Data%20Engineer&descAlignY=55&descSize=16" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=043AC9&center=true&vCenter=true&width=850&lines=Hi!%2C+I'm+Robert+%F0%9F%91%8B;Obsessed+with+Data+Driven+Analytics+%F0%9F%94%A7;Building+The+Bedrock%2C+Where+Sharp+Business+Decision+to+Life+%F0%9F%A6%86" alt="Typing SVG" />
 
