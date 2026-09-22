@@ -185,7 +185,7 @@ IDX_Partners_CreditRisk/
 
 ---
 
-### 🔍 [Customer segmentation analysis and Fraud detection](https://github.com/robertbukit/frauds-detection)
+### 🔍 [Banking Frauds Detection](https://github.com/robertbukit/frauds-detection)
 `Python` `KMeans` `Random Forest`
 
 ---
