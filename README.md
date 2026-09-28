@@ -121,7 +121,7 @@ End-to-end credit risk modeling system on the **Home Credit Default Risk** datas
 ### 💳 [Credit Risk Scoring Modeling — MLOps Pipeline & Policy Simulation](https://github.com/robertbukit/id-x-partners_credit-risk-modeling)
 `Python` `Credit Analyst` `Basel Principles` `XGBoost` `Random Forest` `Logistic Regressioon` `Flask` `Modular Pipeline (MLOps)`
 
-Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
+End-to-end credit risk modeling system on the **Id/x Partners Loan Dataset**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
 
 | Model | Test AUC | Recall (Bad Client) | Business Policy Scenario |
 | :--- | :--- | :--- | :--- |
