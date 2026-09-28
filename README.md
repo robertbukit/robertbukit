@@ -99,14 +99,16 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 ---
 
 ## 🏦 Data Scientist Project Based Intern - Home Credit Indonesia & Id/x Partners
+- Built predictive model for credit risk modeling to declining default debtors and optimize revenue (net portfolio)
+- Translated model outputs into policy risk scenario analysis for credit (following basel principles) to made decision-ready reporting
 
 ### 💳 [Credit Risk Scoring Modeling — End-to-End ML Pipeline](https://github.com/robertbukit/home_credit_project)
-`Python` `XGBoost` `LightGBM` `SHAP` `Flask` `WoE/Scorecard`
+`Python` `Credit Analyst` `Logistic Regression` `LightGBM` `SHAP` 
 
 End-to-end credit risk modeling system on the **Home Credit Default Risk** dataset, covering full ML lifecycle from raw multi-source data consolidation to modular production inference.
 
 | Model | Test AUC | Recall (Bad Client) | Explainability |
-|-------|----------|----------------------|----------------|
+| :--- | :--- | :--- | :--- |
 | LightGBM (Tuned) | **0.96** | **0.91** | Feature Importance |
 
 - Consolidated **8 large-scale datasets** (1.43M rows × 112 features) using star schema architecture into a single analytical table
@@ -117,7 +119,7 @@ End-to-end credit risk modeling system on the **Home Credit Default Risk** datas
 ---
 
 ### 💳 [Credit Risk Scoring Modeling — MLOps Pipeline & Policy Simulation](https://github.com/robertbukit/id-x-partners_credit-risk-modeling)
-`Python` `XGBoost` `Random Forest` `Logistic Regressioon` `Basel Principles` `Flask` `Modular Pipeline (MLOps)`
+`Python` `Credit Analyst` `Basel Principles` `XGBoost` `Random Forest` `Logistic Regressioon` `Flask` `Modular Pipeline (MLOps)`
 
 Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
 
