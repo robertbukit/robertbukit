@@ -107,9 +107,9 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 
 End-to-end credit risk modeling system on the **Home Credit Default Risk** dataset, covering full ML lifecycle from raw multi-source data consolidation to modular production inference.
 
-| Model | Test AUC | Recall (Bad Client) | Explainability |
+| Model | Test AUC | Recall (Bad Client) | Business Policy Scenario |
 | :--- | :--- | :--- | :--- |
-| LightGBM (Tuned) | **0.96** | **0.91** | Feature Importance |
+| LightGBM (Tuned) | **0.96** | **0.91** | Direct Financial Impact Approach |
 
 - Consolidated **8 large-scale datasets** (1.43M rows × 112 features) using star schema architecture into a single analytical table
 - Prioritized **Recall over Accuracy** — in credit risk, missing a bad client (FN) is costlier than false rejection (FP)
@@ -122,6 +122,10 @@ End-to-end credit risk modeling system on the **Home Credit Default Risk** datas
 `Python` `Credit Analyst` `Basel Principles` `XGBoost` `Random Forest` `Logistic Regressioon` `Flask` `Modular Pipeline (MLOps)`
 
 Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**, following **Basel IRB principles** — framed as a policy simulation tool, not just a model.
+
+| Model | Test AUC | Recall (Bad Client) | Business Policy Scenario |
+| :--- | :--- | :--- | :--- |
+| XGBoost (Tuned) | **0.99** | **0.91** | Basel IRB Principles |
 
 - Built and benchmarked **3 classifiers** (XGBoost, Random Forest, Logistic Regression) — LR included for regulatory interpretability
 - Applied **Expected Loss framework** (EL = PD × LGD × EAD) with grade-based empirical LGD for realistic loss estimation
