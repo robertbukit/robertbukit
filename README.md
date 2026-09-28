@@ -135,8 +135,21 @@ Portfolio-level credit risk analysis on **LendingClub Loan Data (2007–2014)**,
 ---
 
 ## 🚀 Featured Data Science and Analytics Projects
-### 📈 [Measuring Real-World Campaign Impact in Retail with Quasi - Experimental Analysis (Quantium Virtual Internship)](https://github.com/robertbukit/quantium-internship_forage)
-`Python` `Pearson Correlation` `Scipy` `Numpy` `Pandas` `Matplotlib` `Seaborn`
+### 📈 [Retail Campaign Impact Evaluation via Quasi-Experimental Analysis](https://github.com/robertbukit/quantium-internship_forage)
+`Python` `Pandas` `SciPy` `Statistical Matching` `Difference-in-Differences (DiD)` `Data Visualization`
+
+End-to-end causal inference analysis to measure the incremental sales uplift of in-store promotional campaigns across 3 trial locations, isolating true campaign effects from seasonal market noise using statistically matched control stores.
+
+| Trial Store | Best Control Match | Net Sales Uplift | Primary Growth Driver |
+| :--- | :--- | :--- | :--- |
+| **Store 77** | Store 233 (Score: 0.97) | **+29.1%** | New Customer Acquisition (+23.5%) |
+| **Store 88** | Store 237 (Score: 0.82) | **+12.3%** | Increased Transaction Frequency (+7.0%) |
+| **Store 86** | Store 155 (Score: 0.92) | **+9.8%** | New Customer Acquisition (+13.5%) |
+
+- **Automated Control Selection:** Engineered a reusable Python framework to score store similarity using a weighted composite metric (50% Pearson Correlation + 50% Normalized Magnitude Distance), ensuring robust pre-trial benchmarking.
+- **Causal Impact Measurement:** Applied Difference-in-Differences (DiD) methodology to calculate net incremental uplift during the trial period (Feb–Apr 2019), effectively neutralizing external market fluctuations.
+- **Behavioral Insight Extraction:** Dissected sales drivers to reveal distinct campaign mechanics—Store 77 succeeded via customer acquisition, while Store 88 succeeded by boosting loyalty and purchase frequency of existing customers.
+- **Strategic Reporting:** Translated complex statistical findings into clear, decision-ready business recommendations for category managers to optimize future promotional rollouts and resource allocation.
 
 ---
 
