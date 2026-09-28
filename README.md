@@ -153,8 +153,20 @@ End-to-end causal inference analysis to measure the incremental sales uplift of 
 
 ---
 
-### 🛒 [Customer Retention Enhancement through Predictive Analytics (Lloyds Banking Group Virtual Internship)](https://github.com/robertbukit/lloyds_churn-prediction_project)
-`Python` `Scikit-learn` `Random Forest` `Logistic Regression` `Numpy` `Pandas` `Matplotlib`
+### 🛒 [Customer Retention & Churn Prediction — Lloyds Banking Group Virtual Internship](https://github.com/robertbukit/lloyds_churn-prediction_project)
+`Python` `Scikit-learn` `Random Forest` `Logistic Regression` `Imbalanced Learning` `Feature Engineering` `Pipeline`
+
+End-to-end predictive analytics pipeline designed to identify at-risk retail banking customers and drive proactive retention strategies, transforming raw behavioral data into decision-ready churn risk scores.
+
+| Model | Test ROC-AUC | Churn Recall (Optimized) | Business Application |
+| :--- | :--- | :--- | :--- |
+| Random Forest (Tuned) | **0.72+** | **0.76** (via Threshold Tuning) | Targeted Retention Campaigns |
+| Logistic Regression | **0.70+** | **0.68** (via Threshold Tuning) | Interpretable Risk Baseline |
+
+- **Multi-Source Feature Engineering:** Consolidated and aggregated 5 disparate datasets (demographics, transactions, customer service interactions, and login activity) into a unified analytical base table, engineering behavioral metrics (e.g., unresolved interaction rate, recency of login).
+- **Robust Imbalance Handling:** Architected a modular `scikit-learn` Pipeline to prevent data leakage, addressing severe class imbalance via `class_weight` tuning and custom probability threshold optimization (prioritizing Churn Recall over raw Accuracy).
+- **Rigorous Model Benchmarking:** Evaluated Logistic Regression and Random Forest using `RandomizedSearchCV`, utilizing Precision-Recall AUC and Macro F1-score as primary success metrics to ensure reliable minority-class detection.
+- **Actionable Business Translation:** Translated probabilistic model outputs into segmented risk tiers, enabling hypothetical marketing teams to prioritize high-risk, high-value customers for cost-effective proactive intervention campaigns.
 
 ---
 
