@@ -32,7 +32,7 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 <div align="center">
 
   <!-- Core Icons from SkillIcons -->
- <img src="https://skillicons.dev/icons?i=python,sklearn,postgres,mysql,github,docker&theme=dark" alt="Skill Icons" />
+ <img src="https://skillicons.dev/icons?i=python,sklearn,postgres,mysql,databricks,github,docker&theme=dark" alt="Skill Icons" />
   
   <br/><br/>
 
@@ -53,7 +53,7 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
     <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Microsoft_Fabric-000000?style=for-the-badge&logo=fabric&logoColor=white" />
+    <img src="https://img.shields.io/badge/Databricks-000000?style=for-the-badge&logo=databricks&logoColor=white" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Apache_Spark-000000?style=for-the-badge&logo=spark&logoColor=white" />
