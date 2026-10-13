@@ -32,7 +32,7 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
 <div align="center">
 
   <!-- Core Icons from SkillIcons -->
- <img src="https://skillicons.dev/icons?i=python,sklearn,postgres,github,docker&theme=dark" alt="Skill Icons" />
+ <img src="https://skillicons.dev/icons?i=python,sklearn,postgres,mysql,github,docker&theme=dark" alt="Skill Icons" />
   
   <br/><br/>
 
