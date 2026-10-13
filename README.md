@@ -192,4 +192,4 @@ Hybrid RAG system for local document intelligence with web-grounded search fallb
 - Compared **Variational Quantum Classifier (VQC)** vs **Quantum Support Vector Machine (QSVM)** on jet multiplicity classification using CMS Open Data (CERN)
 - Tested on both **ideal simulation** and **real IBM Quantum hardware** — evaluating NISQ-era noise impact on classification performance
 - Conducted under **Theoretical Physics Laboratory, IPB University**
-- 📄 Published in IPB University Repository[http://repository.ipb.ac.id/handle/123456789/175054]
+- 📄 Published in IPB University Repository - [Link](http://repository.ipb.ac.id/handle/123456789/175054)
