@@ -184,7 +184,6 @@ Hybrid RAG system for local document intelligence with web-grounded search fallb
 
 ## 📄 Publication Research
 ### ⚛️ Quantum ML — Perbandingan Model VQC dan QSVM Pada Simulasi Ideal dan Real Quantum Hardware Untuk Klasifikasi Jet
-<img width="2221" height="262" alt="image" src="https://github.com/user-attachments/assets/7191e4fa-8043-4ecc-a2b0-2a6a2e5339be" />
 
 `Python` `Qiskit` `IBM Quantum` `PennyLane` `Scikit-learn`
 
