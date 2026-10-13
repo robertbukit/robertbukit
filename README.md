@@ -43,14 +43,17 @@ My strong foundation and spesializing in Data Analysis, Data Science (especially
   <a href="#">
     <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
   </a>
+    <a href="#">
+    <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
+  </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Agno-000000?style=for-the-badge&logo=ai&logoColor=white" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
+    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+    <img src="https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=restapi&logoColor= #0000FF" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Databricks-000000?style=for-the-badge&logo=databricks&logoColor=#FF3621" />
